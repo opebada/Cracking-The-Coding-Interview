@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170425-07" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.17" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chapter_01_ArraysAndStrings\Chapter_01_ArraysAndStrings.csproj" />
+    <ProjectReference Include="..\Chapter_02_LinkedLists\Chapter_02_LinkedLists.csproj" />
+    <ProjectReference Include="..\Chapter_03_StacksAndQueues\Chapter_03_StacksAndQueues.csproj" />
+    <ProjectReference Include="..\Chapter_04_TreesAndGraphs\Chapter_04_TreesAndGraphs.csproj" />
+    <ProjectReference Include="..\Chapter_05_BitManipulation\Chapter_05_BitManipulation.csproj" />
+    <ProjectReference Include="..\Chapter_06_DynamicProgramming\Chapter_06_DynamicProgramming.csproj" />
+    <ProjectReference Include="..\Chapter_10_SortingAndSearching\Chapter_10_SortingAndSearching.csproj" />
+    <ProjectReference Include="..\Chapter_16_Moderate\Chapter_16_Moderate.csproj" />
+  </ItemGroup>
+
+</Project>
